@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>WpfSelectDialog</id>
+    <version>$Version$</version>
+    <title>Select dialogs for WPF</title>
+    <authors>mkoertgen,tmentzel</authors>
+    <owners>mkoertgen,tmentzel</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Select dialogs for WPF</description>
+    <summary>
+    </summary>
+    <copyright/>
+    <releaseNotes>Revision: $Revision$</releaseNotes>
+    <projectUrl>https://github.com/awesome-inc/WpfSelectDialog</projectUrl>
+    <tags>wpf</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\Awesome.WpfSelectDialog.dll" target="lib\net45"/>
+  </files>
+</package>
