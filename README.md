@@ -1,0 +1,2 @@
+# WpfSelectDialog
+Dialogs for WPF.
