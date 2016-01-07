@@ -1,0 +1,36 @@
+# configuration for "master" branch
+-
+  branches:
+    only:
+      - master
+      - /release.*/
+  install:
+    - choco install gitversion.portable -pre -y
+  test: off
+  assembly_info:
+    patch: false
+  nuget:
+    disable_publish_on_pr: true
+  environment:
+    apiKey:
+      secure: 2ZZXSRRBupkaRGRnD1zefkkjmURoXN+QzdeutbdwckTXmmPpe7jmr6HQpgm0R2C4
+  before_build:
+    - ps: gitversion /l console /output buildserver
+    - nuget setapikey %apiKey% -Verbosity quiet
+  build_script:
+    - build.bat /t:CoverageUpload;Deploy /v:m
+
+
+# all other branches
+-
+  install:
+    - choco install gitversion.portable -pre -y
+  test: off
+  assembly_info:
+    patch: false
+  nuget:
+    disable_publish_on_pr: true
+  before_build:
+    - ps: gitversion /l console /output buildserver
+  build_script:
+    - build.bat /t:CoverageUpload;Package /v:m
