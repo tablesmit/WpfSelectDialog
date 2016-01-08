@@ -1,9 +1,9 @@
-# configuration for "master" branch
+# configuration for "master" and "release" branch
 -
   branches:
     only:
       - master
-      - /release.*/
+#      - /release.*/
   install:
     - choco install gitversion.portable -pre -y
   test: off
