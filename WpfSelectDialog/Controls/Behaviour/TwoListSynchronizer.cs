@@ -1,14 +1,16 @@
 using System;
 using System.Collections;
 using System.Collections.Specialized;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Windows;
 
-namespace Awesome.WpfSelectDialog.Controls
+namespace Awesome.WpfSelectDialog.Controls.Behaviour
 {
     /// <summary>
     /// Keeps two lists synchronized. 
     /// </summary>
+    [ExcludeFromCodeCoverage]
     public class TwoListSynchronizer : IWeakEventListener
     {
         private static readonly IListItemConverter DefaultConverter = new DoNothingListItemConverter();

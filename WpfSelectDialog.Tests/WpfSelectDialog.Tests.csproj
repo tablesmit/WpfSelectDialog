@@ -83,9 +83,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Awesome.WpfSelectDialog\Awesome.WpfSelectDialog.csproj">
+    <ProjectReference Include="..\WpfSelectDialog\WpfSelectDialog.csproj">
       <Project>{d96e2ac2-aeeb-4376-8765-ca9098faefa1}</Project>
-      <Name>Awesome.WpfSelectDialog</Name>
+      <Name>WpfSelectDialog</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

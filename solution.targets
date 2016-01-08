@@ -61,11 +61,10 @@
 	</PropertyGroup>
 
 
-	<!-- ## Uncomment to override the default nuget server to push packages to in the 'Deploy' target
+	<!-- ## Uncomment to override the default nuget server to push packages to in the 'Deploy' target 	-->
 	<PropertyGroup>
 		<NugetSourceToDeploy>https://www.nuget.org</NugetSourceToDeploy>
 	</PropertyGroup>
-	-->
 	
 	<!-- ## Uncomment to override the default filename 'Package.nuspec' of your NuGet package files:
 	<PropertyGroup>

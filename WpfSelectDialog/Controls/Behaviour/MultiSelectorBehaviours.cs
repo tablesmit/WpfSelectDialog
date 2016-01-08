@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Diagnostics.CodeAnalysis;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
@@ -9,6 +10,7 @@ namespace Awesome.WpfSelectDialog.Controls.Behaviour
     /// <summary>
     /// A sync behaviour for a multiselector.
     /// </summary>
+    [ExcludeFromCodeCoverage]
     public static class MultiSelectorBehaviours
     {
         public static readonly DependencyProperty SynchronizedSelectedItems = DependencyProperty.RegisterAttached(
