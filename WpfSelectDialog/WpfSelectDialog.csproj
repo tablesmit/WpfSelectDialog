@@ -63,6 +63,8 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SelectDialogResult.cs" />
+    <Compile Include="WindowExtensions.cs" />
     <Compile Include="Controls\ContentFrame.xaml.cs">
       <DependentUpon>ContentFrame.xaml</DependentUpon>
     </Compile>
