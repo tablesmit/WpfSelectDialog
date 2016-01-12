@@ -6,7 +6,7 @@
 [![Coverage Status](https://coveralls.io/repos/awesome-inc/WpfSelectDialog/badge.svg?branch=develop&service=github)](https://coveralls.io/github/awesome-inc/WpfSelectDialog?branch=develop)
 
 # WpfSelectDialog
-Dialogs for WPF.
+Select dialogs for WPF.
 
 ## Open a select dialog for a key-value list
 
